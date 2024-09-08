@@ -3,7 +3,7 @@
 import LoginPage from '../pages/loginPage'
 
 
-describe('Login Tests', () => {
+describe('Login Suite', () => {
    let credentials;
    before(() => {
       cy.fixture('credentials.json').then((credentials) => {
